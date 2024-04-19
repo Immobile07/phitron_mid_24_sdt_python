@@ -77,7 +77,7 @@ def counter_viewer():
             
         elif given==3:
             no=int(input("Enter the show number: "))
-            row,col=map(int,input("Enter the row and column").split())
+            row,col=map(int,input("Enter the row and column: ").split())
             ek_number_hall.book_seats(no,(row,col))
             
         elif given==4:
